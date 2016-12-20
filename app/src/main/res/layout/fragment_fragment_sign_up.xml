@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="FragmentSignUp">
+    android:background="@color/common_google_signin_btn_text_dark_default"
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:id="@+id/Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/Email"
+        android:id="@+id/Password"
+        android:text="Password" />
+
+    <Button
+        android:text="Sign up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_alignStart="@+id/Password"
+        android:layout_marginTop="81dp"
+        android:id="@+id/BTNSIGNUPFRAG"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Colored" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/BTNSIGNUPFRAG"
+        android:layout_toEndOf="@+id/BTNSIGNUPFRAG"
+        android:layout_marginStart="54dp"
+        android:id="@+id/BTNBACKFRAG"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Colored" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/Email"
+        android:text="Correo"
+        android:layout_above="@+id/Password"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginBottom="22dp" />
+
+</RelativeLayout>

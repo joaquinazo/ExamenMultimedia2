@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "499795064963",
+    "firebase_url": "https://fir-9378a.firebaseio.com",
+    "project_id": "fir-9378a",
+    "storage_bucket": "fir-9378a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499795064963:android:c8912e7716aab708",
+        "android_client_info": {
+          "package_name": "com.example.joaquinlopezamador.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499795064963-g1s4n97p5jgurr6fu137bj11p7snubv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joaquinlopezamador.firebase",
+            "certificate_hash": "318B0B74011DB69A82D0D107D6F25440768E1E65"
+          }
+        },
+        {
+          "client_id": "499795064963-jo70i1jvoakqaaf57ta60pnuak9d9p7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joaquinlopezamador.firebase",
+            "certificate_hash": "FE5D44A29355147549D77ACC8A95E8945F50D4F9"
+          }
+        },
+        {
+          "client_id": "499795064963-1c13hnqn4uu2hcgun12smdrncdog7hms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFqVrEJwkQBVfMdNAGnC70TLc_yNocasU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499795064963-1c13hnqn4uu2hcgun12smdrncdog7hms.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "499795064963-0pbju87tloahcvdkm4seeoknuclrjuhn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "joakin.Dudas"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499795064963:android:30eb1eb8b172c11c",
+        "android_client_info": {
+          "package_name": "com.example.joakin.actividad3firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499795064963-jo44demu5ebj5c45de49c3tncvcpjopj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joakin.actividad3firebase",
+            "certificate_hash": "318B0B74011DB69A82D0D107D6F25440768E1E65"
+          }
+        },
+        {
+          "client_id": "499795064963-1c13hnqn4uu2hcgun12smdrncdog7hms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFqVrEJwkQBVfMdNAGnC70TLc_yNocasU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499795064963-1c13hnqn4uu2hcgun12smdrncdog7hms.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "499795064963-0pbju87tloahcvdkm4seeoknuclrjuhn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "joakin.Dudas"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

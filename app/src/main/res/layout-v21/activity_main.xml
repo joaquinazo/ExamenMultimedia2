@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.joakin.actividad3firebase.MainActivity">
+
+
+
+    <Button
+        android:text="BOXEO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="83dp"
+        android:id="@+id/ENGLISHBUTTON" />
+
+    <Button
+        android:text="NBA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SPANISHBUTTON"
+        android:layout_marginTop="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="FUTBOL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FUTBOL"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/ENGLISHBUTTON"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="KICKBOXING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/KICKBOXING"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/FUTBOL"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:text="GOLF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GOLF"
+        android:layout_below="@+id/KICKBOXING"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:text="MMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MMA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp" />
+
+</RelativeLayout>
